@@ -1,0 +1,39 @@
+:root{
+    --yellow: #F4D04E;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+body{
+    background-color:var(--yellow);
+    /*centralizando a div*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.container{
+    background-color: white;
+    padding: 24px;
+    width: 384px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 8px 8px 0px black;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 24px;
+}
+.textos{
+    justify-items: left;
+}
