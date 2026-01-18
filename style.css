@@ -25,7 +25,7 @@ body {
   padding: 24px;
   width: 384px;
   border-radius: 20px;
-  border: 1px solid black;
+  border: 1px inset black;
   box-shadow: 8px 8px 0px black;
 }
 img {
@@ -50,7 +50,7 @@ img {
 .user span {
   font-family: Figtree;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 600;
 }
 .user img {
   width: 32px;
