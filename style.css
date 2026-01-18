@@ -1,39 +1,99 @@
-:root{
-    --yellow: #F4D04E;
+:root {
+  --yellow: #f4d04e;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html{
-    height: 100%;
+html {
+  height: 100%;
 }
-body{
-    background-color:var(--yellow);
-    /*centralizando a div*/
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
+body {
+  background-color: var(--yellow);
+  /*centralizando a div*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
-.container{
-    background-color: white;
-    padding: 24px;
-    width: 384px;
-    border-radius: 20px;
-    border: 1px solid black;
-    box-shadow: 8px 8px 0px black;
+.container {
+  background-color: white;
+  padding: 24px;
+  width: 384px;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 8px 8px 0px black;
 }
-img{
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-    margin-bottom: 24px;
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 24px;
 }
-.textos{
-    justify-items: left;
+
+.textos {
+  justify-items: left;
+  display: flex;
+  flex-direction: column;
+}
+.user {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 24px;
+}
+.user span {
+  font-family: Figtree;
+  font-size: 16px;
+  font-weight: 900;
+}
+.user img {
+  width: 32px;
+  vertical-align: middle;
+  margin: 0;
+}
+.learn {
+  background-color: #f4d04e;
+  width: fit-content;
+  padding-block: 4px;
+  padding-inline: 12px;
+  font-family: Figtree;
+  font-weight: bold;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.date {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-family: Figtree;
+  font-weight: 400;
+  font-size: 14px;
+}
+.figtree-bold {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+h1 {
+  font-family: Figtree;
+  font-weight: 800;
+  font-size: 24px;
+}
+.textos p {
+  font-family: Figtree;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6b6b6b;
+  margin-top: 12px;
+}
+.attribution {
+  position: fixed;
+  bottom: 2px;
+  left: 50%;
+  transform: translateX(-50%);
 }
