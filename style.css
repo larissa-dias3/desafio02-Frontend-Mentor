@@ -25,8 +25,7 @@ body {
   padding: 24px;
   width: 384px;
   border-radius: 20px;
-  border: 1px inset black;
-  box-shadow: 8px 8px 0px black;
+  box-shadow: 8px 8px 0px black, inset 0 0 0 1px black;
 }
 img {
   display: block;
@@ -43,14 +42,14 @@ img {
 }
 .user {
   display: flex;
-  gap: 10px;
+  gap: 12px;
   align-items: center;
   margin-top: 24px;
 }
 .user span {
   font-family: Figtree;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
 }
 .user img {
   width: 32px;
